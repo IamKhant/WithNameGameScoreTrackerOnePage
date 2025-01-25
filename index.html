@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="input-container">
+            <input type="text" id="team1-name" placeholder="Enter Team 1 Name">
+            <input type="text" id="team2-name" placeholder="Enter Team 2 Name">
+            <button id="submit-btn" onclick="submitNames()">Submit</button>
+        </div>
+
+        <div class="num-container">
+            <div>
+                <h2 id="display-mame1">TEAM 1</h2>
+                <h1 id="home-score">0</h1>
+                <div class="forIncrease">
+                    <button id="home-one" onclick="homeOne()">+1</button>
+                    <button id="home-two" onclick="homeTwo()">+2</button>
+                    <button id="home-three" onclick="homeThree()">+3</button>
+                </div>
+                <div class="forIncrease">
+                    <button id="home-minus-one" onclick="homeMinusOne()">-1</button>
+                    <button id="home-minus-two" onclick="homeMinusTwo()">-2</button>
+                    <button id="home-minus-three" onclick="homeMinusThree()">-3</button>
+                </div>
+            </div>
+            <div>
+                <h2 id="display-mame2">TEAM 2</h2>
+                <h1 id="guest-score">0</h1>
+                <div class="forIncrease">
+                    <button id="guest-one" onclick="guestOne()">+1</button>
+                    <button id="guest-two" onclick="guestTwo()">+2</button>
+                    <button id="guest-three" onclick="guestThree()">+3</button>
+                </div>
+                <div class="forIncrease">
+                    <button id="guest-minus-one" onclick="guestMinusOne()">-1</button>
+                    <button id="guest-minus-two" onclick="guestMinusTwo()">-2</button>
+                    <button id="guest-minus-three" onclick="guestMinusThree()">-3</button>
+                </div>
+            </div>
+
+
+        </div>
+        <button id="reset-btn" onclick="resetScore()">Reset</button>
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>

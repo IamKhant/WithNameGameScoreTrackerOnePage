@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #1B244A;
+    width: 600px;
+    height: 500px;
+    align-items: center;
+    margin: auto;
+    margin-top: 10vh;
+}
+#submit-btn{
+    background-color: #9AABD8;
+    color: #1B244A;
+    padding: 5px 10px;
+    border: 1px solid #047857;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#submit-btn:hover {
+    background-color: #047857;
+    color: #00fd50;
+}
+#input-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px 10px;
+}
+
+#input-container input {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.num-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px;
+}
+
+.num-container h2 {
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: ledBasketball;
+}
+
+.num-container h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #F94F6D;
+    background-color: #080001;
+    width: 250px;
+    padding: 20px 0px;
+    font-family: ledBasketball;
+    font-size: 90px;
+}
+
+.forIncrease button {
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: ledBasketball;
+    font-size: 18px;
+    border: 2px solid #9AABD8;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.forIncrease button:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+
+#reset-btn {
+    background-color: #FDE68A;
+    color: #0284C7;
+    padding: 10px 20px;
+    border: 1px solid #047857;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#reset-btn:hover {
+    background-color: #047857;
+    color: #FDE68A;
+}
